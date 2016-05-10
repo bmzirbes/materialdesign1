@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	
+	<title>Whaleurinal</title>
+	
+	<!-- google fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+	
+	<!-- link to fontawesome thru bootstrap cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+	<!-- bootstrap material icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- bootstrap cdn -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+	<!-- bootstrap material design cdn -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.1/bootstrap-material-design.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material-fullpalette.min.css">
+
+	<!-- <link rel="stylesheet/less" type="text/css" href="less" /> -->
+
+
+
+	<!-- google material design icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link href="css/ripples.css" rel="stylesheet">
+
+	<!-- Ion Icons CSS -->
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css">
+</head>
+<body>
+	<nav class="navbar default-header-height navbar-fixed-top" id="navbar" role="navigation">
+		<div class="row">
+			<div class="container-fluid">
+				<div class="col-sm-8">
+					<div class="clip-text clip-text_five" id="site-title">whaleurinal</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="container-fluid">
+						<button type="button" class="btn btn-fab btn-material-grey-200 opensource" data-toggle="modal" data-target="#about-me">
+							<i class="material-icons">person</i>
+							<div class="ripple-container"></div>
+						</button>
+						<button type="button" class="btn btn-default btn-fab" data-toggle="modal" data-target="#test"> 
+							<i class="material-icons">grade</i>
+							<div class="ripple-container"></div>
+						</button>
+					</div>
+				</div>
+				<!-- close big name column-->
+				<!-- <div class="col-sm-6">
+					<a href="javascript:void(0)" class="btn btn-fab btn-raised"><i class="material-icons"></i>About</a>
+					<a href="javascript:void(0)" class="btn btn-fab btn-raised"><i class="material-icons"></i>Projects</a>
+					<a href="javascript:void(0)" class="btn btn-fab btn-raised"><i class="material-icons"></i>History</a>	
+				</div> -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html#about-me" data-toggle="collapse" data-target=".navbar-collapse" id="about">ABOUT</a></li>
+						<li><a href="portfolio.html">PORTFOLIO</a></li>
+						<li><a href="resume.html">RESUME</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+						<li id="social"> 
+							<a href="http://github.com/bmzirbes" class="social"><i class="fa fa-lg fa-ul fa-github"></i></a>
+							<a href="http://codepen.io/bmzirbes" class="social"><i class="fa fa-lg fa-ul fa-codepen"></i></a>
+							<a href="https://www.linkedin.com/in/bmzirbes" class="social"><i class="fa fa-lg fa-ul fa-linkedin"></i></a>
+						</li>
+						<!-- <li><a href="http://brianzirbes.com">BLOG</a></li> -->
+					</ul>
+				</div>
+			</div>
+		</div> <!-- close row -->
+	</div> <!-- close container-fluid -->
+</nav> 	<!-- close navbar container -->
+
+<div id="nav-button-fab" class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+	<a type="button" class="btn btn-fab btn-material-red opensource">
+		<i class="material-icons">add</i>
+		<div class="ripple-container"></div>
+	</a>
+	<ul>
+		<li><a class="btn btn-fab green waves-effect waves-light" data-toggle="modal" data-target="#modal1"><i class="material-icons">person</i></a></li>
+		<li><a class="btn btn-fab yellow darken-1 waves-effect waves-light" data-toggle="modal" data-target="#modal2"><i class="material-icons">grade</i></a></li>
+		<li><a class="btn btn-fab blue waves-effect waves-light modal-trigger" data-toggle="modal" data-target="#modal3"><i class="material-icons">letter</i></a></li>
+	</ul>
+</div>
+
+<div class="container-fluid mainbody">
+
+	<div class="row">
+		<div class="col-md-10 col-centered">
+
+			<div id="about-me" class="modal fade in" tabindex="-1"> 
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+							<h4 class="modal-title">About</h4>
+						</div>
+						<div class="modal-body">
+							<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum .</p>
+							<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum. Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</p>
+							<h5 class="text-center subtitle text-muted">Currently available for full-time or contract work</h5>
+							<div class="text-center">
+								<button class="btn btn-flat" data-target="#">Hire me</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="test" class="modal fade in" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h4 class="modal-title">Modal title</h4>
+			</div>
+			<div class="modal-body">
+				<p>One fine body… One fine body…One fine body…One fine body…One fine body…One fine body…One fine body…One fine body…One fine body…One fine body…One fine body…One fine body…</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+
+	<div class="container-fluid">
+
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb portfolio-wrapper">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb portfolio-wrapper">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb portfolio-wrapper">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb portfolio-wrapper">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb portfolio-wrapper">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb portfolio-wrapper">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb portfolio-wrapper">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb portfolio-wrapper">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb portfolio-wrapper">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb portfolio-wrapper">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb portfolio-wrapper">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+			</a>
+		</div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb portfolio-wrapper">
+			<a class="thumbnail" href="#">
+				<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+			</a>
+		</div>
+	</div>
+</div>
+
+<!-- 
+		<div class="container-fluid" id="containerBg">
+			<div class="row" id="cardMargin">
+				<div class="col-md-4 col-md-offset-2">
+					<div class="card">
+						<div class="container-fluid">
+							<div class="card-height-indicator"></div>
+							<div class="card-content">
+
+								<h3 class="card-image-headline shadowHeadline">Baseball Around the World: 1871 - 2014 Story Map</h3>
+
+
+								<div class="card-body">
+									<p>In this map series we will explore the growth of professional Baseball from the early days of the National Association of Professional Base Ball Players in 1871 to the 2014 Major League Baseball season.</p>
+								</div>
+
+								<footer class="card-footer">
+									<a href="http://arcg.is/1bxpZcj" target="_blank" class="btn btn-flat">Link</a>
+								</footer>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<div class="container-fluid">
+							<div class="card-height-indicator"></div>
+							<div class="card-content">
+								<div class="card-image">
+
+									<h3 class="card-image-headline shadowHeadline">3-point Attempt Rate across NBA History Using D3</h3>
+								</div>
+
+								<div class="card-body">
+									<p>Tilde mumblecore flannel, truffaut man bun celiac vice tofu. Schlitz selvage blog, man braid cardigan you probably haven't heard of them pop-up flannel jean shorts franzen.</p>
+								</div>
+
+								<footer class="card-footer">
+									<button class="btn btn-flat" data-toggle="modal" data-target="#nba3Par">Link</button>
+								</footer>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row" id="cardMargin">
+					<div class="col-md-4 col-md-offset-2">
+						<div class="card">
+							<div class="container-fluid">
+								<div class="card-height-indicator"></div>
+								<div class="card-content">
+									<div class="card-image">
+
+										<h3 class="card-image-headline shadowHeadline">Georgia Breweries, Brewpubs, and Client Brewers Story Map</h3>
+									</div>
+
+									<div class="card-body">
+										<p>This story map provides an interactive look at Georgia’s brewing industry by displaying all 47 of Georgia’s breweries, brewpubs, and client breweries in one interactive map.</p>
+									</div>
+
+									<footer class="card-footer">
+										<a href="http://arcg.is/1InQ1di" target="_blank" class="btn btn-flat">Link</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card">
+							<div class="card-height-indicator"></div>
+							<div class="card-content">
+								<div class="card-image">
+
+									<h3 class="card-image-headline shadowHeadline">Custom web cartography for the City of Sandy Springs, GA</h3>
+								</div>
+
+								<div class="card-body">
+									<p>This project involved redesigning the City of Sandy Spring's old flex-based web application with a brand new JavaScript based piece of web cartography.</p>
+								</div>
+
+								<footer class="card-footer">
+									<a href="https://gis.sandyspringsga.gov/applications/citymap" target="_blank" class="btn btn-flat">Link</a>
+								</footer>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->	
+
+
+
+		<!-- jQuery CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+		<!-- bootstrap minified js CDN -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		<!-- bootstrap material design CDN for js and ripples.js-->
+		<script src="https://cdn.jsdelivr.net/bootstrap.material-design/0.5.9/js/material.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/bootstrap.material-design/0.5.9/js/ripples.min.js"></script>
+		
+		<!-- initialize bootstrap material js -->
+		<script>
+			$( document ).ready(function() 
+			{
+				$(function()
+				{
+					$.material.init();
+				});
+			});    
+		</script>
+
+		<!-- index.js -->
+		<script type="text/javascript" src="js/index.js"></script>
+
+	</body>
+
+	</html>

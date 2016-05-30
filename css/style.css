@@ -258,6 +258,9 @@ a.thumbnail {
 textarea.form-control {
   margin-top: 1.5em;
 }
+.tooltipped {
+  visibility: none;
+}
 
 @media only screen and (min-width : 368px) {
   .clip-text {
@@ -584,6 +587,9 @@ footer {
   margin: 50px 0;
   text-align: center;
   background-color: #F4F4F4;
+}
+.tooltipped {
+  visibility: visible;
 }
 } 
 /* close media query for min-width 768px */
